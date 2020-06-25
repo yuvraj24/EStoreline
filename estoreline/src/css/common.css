@@ -1,0 +1,55 @@
+.parent {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.banner {
+  height: 300px;
+}
+
+.overlay {
+  justify-content: center;
+  display: flex;
+  flex: 1;
+  align-self: center;
+  text-align: center;
+  position: absolute;
+  margin-top: 140px;
+}
+
+.inputBorder {
+  height: 50px;
+  outline: none;
+}
+
+.textArea {
+  outline: none;
+}
+
+.textSize14 {
+  font-size: 14px;
+  outline: none;
+}
+
+.about_video_icon {
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  background-color: #795376;
+  position: absolute;
+  margin: 0 auto;
+  display: block;
+}
+
+.contact_us_icons {
+  font-size: 24px;
+  color: #bdbdbd;
+  margin-top: 10px;
+} 
+ 
+/* .custom-checkbox .custom-control-input:focus ~ .custom-control-label::before {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(255, 0, 247, 0.25);
+} */

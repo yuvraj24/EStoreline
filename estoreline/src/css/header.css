@@ -1,0 +1,42 @@
+.far {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #eeeeee;
+  color: #4e4e4e;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.badgeCount {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  margin-left: -15px;
+  margin-top: 0px;
+  font-size: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+}
+
+.loginBtn {
+  border-radius: 25px;
+}
+
+.navBar {
+  position: fixed;
+  width: 100vw;
+  background-color: #dedede;
+  transition: 0.2s;
+  display: flex;
+  z-index: 2; 
+}
+
+.floatingNav {
+  width: calc(100%);
+  border-radius: 2px;
+  box-shadow: 0px 1px 10px #999;
+}
