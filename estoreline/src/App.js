@@ -6,7 +6,7 @@ import ContactUs from "./modules/contact/ContactUs";
 import { HomePage } from "./modules/home/HomePage";
 import { AboutUs } from "./modules/home/AboutUs";
 import { StoreCollections } from "./modules/collection/StoreCollections";
-import { ProductDetails } from "./modules/product/ProductDetails";
+import { ProductDetails } from "./modules/product/components/ProductDetails";
 
 const App = () => {
   return (

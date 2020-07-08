@@ -1,6 +1,6 @@
-import React from "react";
-import { FilterView } from "./FilterView";
-import { ProductView } from "../product/ProductView";
+import React from "react"; 
+import { ProductView } from "../product/components/ProductView";
+import FilterContainer from '../filter/containers/FilterContainer'
 
 export const StoreCollections = (props) => {
   let typeId = props.match.params.id;
@@ -20,7 +20,7 @@ export const StoreCollections = (props) => {
       </nav>
 
       <div class="row m-1">
-        <FilterView />
+        <FilterContainer />
         <ProductView typeId={typeId} />
       </div>
     </div>

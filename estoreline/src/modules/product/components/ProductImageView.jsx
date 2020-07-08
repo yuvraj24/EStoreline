@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ProductImage } from "../product/ProductImage.jsx";
+import { ProductImage } from "../../product/components/ProductImage.jsx";
 
 export const ProductImageView = ({ productName }) => {
   const [image, setImage] = useState(

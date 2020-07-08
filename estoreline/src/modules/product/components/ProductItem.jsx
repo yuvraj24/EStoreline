@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export const ProductItem = ({ typeId }) => {
+export const ProductItem = ({ typeId, product }) => {
   return (
     <div class="w-25 ml-5 pl-3 pb-5">
       <Link
@@ -14,7 +14,7 @@ export const ProductItem = ({ typeId }) => {
         <div>
           <img
             width="100%"
-            src="https://colorlib.com/preview/theme/cozastore/images/product-04.jpg"
+            src={product.imageLink}
             alt="IMG-PRODUCT"
           />
           {/* <a
@@ -26,9 +26,9 @@ export const ProductItem = ({ typeId }) => {
         </div>
         <div class="col pl-3 pr-3 pt-3" style={{ textAlign: "center" }}>
           <a href="product-detail.html">
-            <label class="text-dark">Pieces Metallic Printed</label>
+            <label class="text-dark">{product.productName}</label>
           </a>
-          <h5 class="text-primary">$18.96</h5>
+          <h5 class="text-primary">$ {product.productPrice}</h5>
         </div>
       </Link>
     </div>

@@ -1,7 +1,7 @@
-import React from "react";
-import { SizeOptions } from "../collection/SizeOptions";
-import { ColorOptions } from "../collection/ColorOptions";
-import "../../css/header.css";
+import React from "react"; 
+import "../../../css/header.css";
+import { SizeOptions } from "../../filter/components/SizeOptions";
+import { ColorOptions } from "../../filter/components/ColorOptions";
 
 export const ProductDescription = ({ productName }) => {
   return (
