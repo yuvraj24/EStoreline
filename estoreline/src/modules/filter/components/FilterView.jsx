@@ -11,14 +11,16 @@ import { fetchFilters, fetchFiltersSuccess } from "../actions/filterActions";
 export const FilterView = ({ dataSource, loading, dispatch }) => { 
   // alert(dataSource)
   let [price, setPrice] = React.useState([0, 5000]); 
+  // let [dataSource, setDataSource] = React.useState([]); 
 
   useEffect(() => {
-    getdataSource();
+    getDataSource();
   }, []);
 
-  async function getdataSource() {
+  async function getDataSource() {
     dispatch(fetchFilters())
     let result = await getProductFilters(); 
+    // setDataSource(result)
     dispatch(fetchFiltersSuccess(result))
     // alert(JSON.stringify(result[0].Category[0].categoryName))
   }
