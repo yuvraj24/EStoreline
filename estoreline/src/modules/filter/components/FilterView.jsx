@@ -8,22 +8,12 @@ import { SizeOptions } from "./SizeOptions";
 import { getProductFilters } from "../../../api/ApiController";
 import { fetchFilters, fetchFiltersSuccess } from "../actions/filterActions";
 
-export const FilterView = ({ dataSource, loading, dispatch }) => { 
-  // alert(dataSource)
-  let [price, setPrice] = React.useState([0, 5000]); 
-  // let [dataSource, setDataSource] = React.useState([]); 
-
+export const FilterView = ({ dataSource, loading, fetchFilters }) => {
+  let [price, setPrice] = React.useState([0, 5000]);
+  // let [dataSource, setDataSource] = React.useState([]);
   useEffect(() => {
-    getDataSource();
+    fetchFilters();
   }, []);
-
-  async function getDataSource() {
-    dispatch(fetchFilters())
-    let result = await getProductFilters(); 
-    // setDataSource(result)
-    dispatch(fetchFiltersSuccess(result))
-    // alert(JSON.stringify(result[0].Category[0].categoryName))
-  }
 
   function valuetext(value) {
     return `${value} $`;
@@ -89,7 +79,9 @@ export const FilterView = ({ dataSource, loading, dispatch }) => {
             dataSource.length > 0 &&
             dataSource[2].Size &&
             dataSource[2].Size.length > 0 &&
-            dataSource[2].Size.map((item) => <SizeOptions name={item.sizeName} />)}
+            dataSource[2].Size.map((item) => (
+              <SizeOptions name={item.sizeName} />
+            ))}
         </div>
       </div>
 

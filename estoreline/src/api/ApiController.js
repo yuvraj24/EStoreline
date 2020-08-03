@@ -14,7 +14,5 @@ export const getProductsByCategory = async (category) => {
 
 export const getProductFilters = async () => {
   let result = await api.get(`/filter`);
-  if (result.status === 200) {
-    return result.data;
-  }
+  return result;
 };

@@ -6,6 +6,7 @@ let initialState = {
 };
 
 export const filterReducer = (state = initialState, action) => {
+  // alert(JSON.stringify(action))
   switch (action.type) {
     case FilterType.FETCH_FILTERS:
       return {
@@ -18,7 +19,7 @@ export const filterReducer = (state = initialState, action) => {
       return {
         ...state,
         loading: action.payload.loading,
-        dataSource: action.payload.data,
+        dataSource: action.payload.dataSource,
       };
       break;
       break;
