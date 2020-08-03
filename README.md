@@ -9,10 +9,20 @@ EStoreLine is an ecommerce platform that provides an in depth view of implementa
 
 ## Insights
 
-<img src="https://github.com/yuvraj24/EStoreline/blob/master/assets/img1.png" />
-<br><br><br>
-<img src="https://github.com/yuvraj24/EStoreline/blob/master/assets/img2.png" />
+|   Collections   |
+|:-----------------:|
+| <br> <img src="https://github.com/yuvraj24/EStoreline/blob/master/assets/img1.png" /> <br> <br> |
+| <br> <img src="https://github.com/yuvraj24/EStoreline/blob/master/assets/img2.png" /> <br> <br> |
+ 
+|   About Us   |
+|:-------------:|
+| <img src="https://github.com/yuvraj24/EStoreline/blob/master/assets/img3.png" /> |
+<br> 
 
+|   Contact Us   |
+|:-------------:|
+|  <img src="https://github.com/yuvraj24/EStoreline/blob/master/assets/img4.png" />  |
+<br> 
 
 ## Author
 
