@@ -4,7 +4,7 @@
 EStoreLine is an ecommerce platform that provides an in depth view of implementation on how to create a Full Stack Web application from scratch.
 
 ## Spread Your ❤️
-[![GitHub followers](https://img.shields.io/github/followers/yuvraj24.svg?style=social&label=Follow)](https://github.com/yuvraj24)  [![Twitter Follow](https://img.shields.io/twitter/follow/yuvrajpy24.svg?style=social)](https://twitter.com/yuvrajpy)
+[![GitHub followers](https://img.shields.io/github/followers/yuvraj24.svg?style=social&label=Follow)](https://github.com/yuvraj24)  [![Twitter Follow](https://img.shields.io/twitter/follow/yuvrajpy.svg?style=social)](https://twitter.com/yuvrajpy)
 <br>
 
 ## Insights
